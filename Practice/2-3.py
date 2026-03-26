@@ -8,7 +8,7 @@ print ("oxygen tanks:" + otanks)
 print ("food packs:" + fpacks)
 print ("water packs:" + wpacks)
 
-otanks = input("rechack oxygen tanks ")
+otanks = input("recheck oxygen tanks ")
 
 print ("countdown:" + time)
 print ("oxygen tanks:" + otanks)
