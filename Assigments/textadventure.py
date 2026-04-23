@@ -557,13 +557,13 @@ def kwebble_Ending():
     choice = input("> ")
 
     if choice.lower() == "closet":
-        print("You hide in the closet but the AI finds you and you lose the game.")
+        print("You hide in the closet but the AI finds you because you chose the most obvious place. You lose the game.")
     elif choice.lower() == "under the bed":
         print("You hide under the bed but the AI finds you and you lose the game.")
     elif choice.lower() == "behind the shower curtain":
         print("You hide behind the shower curtain. The AI finds you.")
     elif choice.lower() == "in the attic":
-        print("You climb into the attic and hide. But the AI grabs you. You're never seen again.")
+        print("You climb into the attic and hide. But the AI grabs you through the floor. You're never seen again.")
     elif choice.lower() == "in the basement":
         print("You hide in the basement but the AI finds you. It takes you.")
     else:
